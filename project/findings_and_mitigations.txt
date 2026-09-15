@@ -1,0 +1,36 @@
+APEXPLANET TASK 5 — SECURITY FINDINGS & MITIGATIONS
+
+Finding 1: SQL Injection
+Severity: High
+Evidence: SQL Injection request was recorded in the Apache access log.
+Risk: Improperly handled user input may allow manipulation of database queries.
+Mitigation: Use prepared/parameterized SQL statements, validate input,
+and apply least-privilege database access.
+
+Finding 2: Web Application Exposure
+Severity: Medium
+Evidence: DVWA was accessible through the local Apache web server.
+Risk: A deliberately vulnerable application should not be exposed outside
+the controlled testing environment.
+Mitigation: Restrict access to authorized networks, use firewall rules,
+and never deploy DVWA in a production environment.
+
+Finding 3: Security Configuration
+Severity: Informational
+Evidence: HTTP response headers were reviewed during the assessment.
+Observed protections included X-Content-Type-Options, X-Frame-Options,
+Referrer-Policy and Permissions-Policy.
+Mitigation: Maintain secure headers and periodically review the complete
+web-server security configuration.
+
+Finding 4: Incident Detection
+Severity: Medium
+Evidence: Apache access logs contained a suspicious SQL Injection request.
+Risk: Without log monitoring, malicious requests may not be detected promptly.
+Mitigation: Centralize logs, create detection rules for suspicious patterns,
+and establish an incident-response process.
+
+Overall Assessment:
+The assessment demonstrated security weaknesses and detection opportunities
+within the controlled DVWA laboratory. The findings are limited to the local
+training environment and do not represent a production system assessment.

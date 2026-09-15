@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Tue, 15 Sep 2026 17:10:30 GMT
+Server: Apache/2.4.68 (Debian)
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+Set-Cookie: security=impossible; path=/; HttpOnly
+Set-Cookie: PHPSESSID=ee28e81981a8d0267a414823b8c79f40; expires=Wed, 16 Sep 2026 17:10:30 GMT; Max-Age=86400; path=/; HttpOnly; SameSite=Strict
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=77c2c82df986d65cbb9523f175b34b0c; expires=Wed, 16 Sep 2026 17:10:30 GMT; Max-Age=86400; path=/; HttpOnly; SameSite=Strict
+Location: login.php
+Content-Type: text/html; charset=UTF-8
+

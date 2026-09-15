@@ -1,0 +1,32 @@
+APEXPLANET TASK 5 — REMEDIATION PLAN
+
+1. SQL Injection
+- Use prepared statements / parameterized queries.
+- Validate and sanitize all user-supplied input.
+- Avoid dynamically constructing SQL queries.
+- Apply least-privilege permissions to the application database account.
+
+2. Web Application Security
+- Keep vulnerable training applications isolated from production networks.
+- Restrict access using firewall and network controls.
+- Keep Apache, PHP and application components updated.
+
+3. Security Headers
+- Maintain secure HTTP response headers.
+- Periodically review headers and remove unnecessary information
+  exposed by the web server.
+
+4. Logging and Monitoring
+- Monitor Apache access and error logs.
+- Detect suspicious encoded characters and abnormal request patterns.
+- Retain logs for incident investigation.
+
+5. Incident Response
+- Define detection, containment, eradication and recovery procedures.
+- Isolate affected services during investigation.
+- Restore services only after the environment has been checked.
+
+6. General Security
+- Perform regular vulnerability assessments.
+- Follow secure coding practices.
+- Document findings, evidence and remediation actions.

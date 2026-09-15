@@ -1,0 +1,44 @@
+APEXPLANET TASK 5 — POST-INCIDENT REPORT
+
+Incident Type:
+Simulated Web Application SQL Injection
+
+Environment:
+Local DVWA lab on Kali Linux
+
+Detection:
+Apache access logs were reviewed and a suspicious SQL Injection
+request pattern was identified in the DVWA SQL Injection endpoint.
+
+Indicator:
+Encoded SQL metacharacters and OR-based SQL expression were present
+in the HTTP request.
+
+Containment:
+Apache HTTP Server was temporarily stopped to isolate the affected
+local web application during the simulated incident-response exercise.
+
+Eradication:
+The simulated threat was treated as a controlled lab event.
+No malicious persistence or malware was introduced into the system.
+
+Recovery:
+Apache HTTP Server was restarted and verified as active and running.
+
+Impact:
+The activity was restricted to the local DVWA training environment.
+No production or external system was involved.
+
+Recommended Mitigations:
+- Use parameterized/prepared SQL statements.
+- Validate and sanitize user input.
+- Apply least-privilege database permissions.
+- Monitor web-server logs for suspicious request patterns.
+- Maintain secure application configuration.
+- Perform regular vulnerability assessments.
+
+Lessons Learned:
+Log monitoring can help identify suspicious application requests.
+Containment limits exposure while an incident is investigated.
+Post-incident documentation helps track detection, response,
+recovery, and future preventive actions.

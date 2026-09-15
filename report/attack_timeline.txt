@@ -1,0 +1,28 @@
+APEXPLANET TASK 5 — ATTACK TIMELINE
+
+1. Lab Preparation
+   - DVWA and supporting services verified.
+   - Apache web server and MariaDB database confirmed.
+
+2. Reconnaissance
+   - Local DVWA environment identified.
+   - HTTP service and database service assessed.
+
+3. Web Assessment
+   - HTTP response headers reviewed.
+   - DVWA SQL Injection functionality assessed.
+
+4. Detection
+   - Apache access logs reviewed.
+   - Suspicious SQL Injection request identified.
+
+5. Containment
+   - Apache service temporarily stopped as a simulated containment action.
+
+6. Recovery
+   - Apache service restarted.
+   - Service status verified as active and running.
+
+7. Post-Incident Analysis
+   - Findings documented.
+   - Security improvements and mitigation recommendations recorded.

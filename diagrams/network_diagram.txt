@@ -1,0 +1,33 @@
+APEXPLANET TASK 5
+DVWA WEB APPLICATION PENTEST LAB
+
+              ┌──────────────────────┐
+              │     Kali Linux       │
+              │  Pentest Workstation  │
+              │    192.168.56.101     │
+              └──────────┬───────────┘
+                         │
+                         │ Host-Only /
+                         │ Local Lab
+                         ▼
+              ┌──────────────────────┐
+              │       Apache         │
+              │     Web Server       │
+              │     HTTP : 80        │
+              └──────────┬───────────┘
+                         │
+                         ▼
+              ┌──────────────────────┐
+              │        DVWA          │
+              │ Damn Vulnerable Web  │
+              │     Application      │
+              └──────────┬───────────┘
+                         │
+                         ▼
+              ┌──────────────────────┐
+              │       MariaDB        │
+              │     Database: dvwa   │
+              └──────────────────────┘
+
+Scope: Controlled local lab environment
+Purpose: Authorized web application security testing

@@ -1,0 +1,47 @@
+APEXPLANET CYBERSECURITY INTERNSHIP - TASK 5
+
+Project Title:
+Web Application Penetration Testing & Incident Response on DVWA
+
+Objective:
+Assess a deliberately vulnerable DVWA web application in a controlled
+lab environment, identify security weaknesses, document evidence,
+recommend mitigations, and simulate an incident response workflow.
+
+Scope:
+Target: DVWA
+Environment: Kali Linux + DVWA
+Network: Private/Host-Only VirtualBox Lab
+Testing is limited to the authorized lab environment.
+
+Tools:
+- Kali Linux
+- DVWA
+- Burp Suite
+- Nmap
+- Browser Developer Tools
+- curl
+
+Planned Assessment Areas:
+1. Reconnaissance
+2. Application and service discovery
+3. SQL Injection assessment
+4. Cross-Site Scripting assessment
+5. CSRF assessment
+6. File Inclusion assessment where applicable
+7. Security headers review
+8. Evidence collection
+9. Mitigation recommendations
+10. Incident response simulation
+
+Incident Response:
+- Detect simulated attack activity
+- Analyze available logs/evidence
+- Contain the simulated threat
+- Recommend eradication/remediation
+- Prepare a post-incident report
+
+Final Deliverables:
+- Capstone Project Report PDF
+- GitHub Repository
+- 12-minute Final Presentation Video
